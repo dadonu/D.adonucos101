@@ -8,4 +8,5 @@ fn main() {
     /* it won't run due to repeating fees the correct version should be
      let  mut fees = 25_000;
      */
+     // code have been corrected
 }
