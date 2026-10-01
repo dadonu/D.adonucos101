@@ -13,7 +13,7 @@ let _younger_adult:u64 = 100_000;
   let mut name = String::new();
   io::stdin().read_line(&mut name).expect("wrong input");
 
-println!("\nAre you experienced? ( Enter 1 for yes/0 for no):");
+println!("\nAre you experienced? (Enter 1 for yes/0 for no):");
    let mut answer = String::new();
    io::stdin().read_line(&mut answer).expect("wrong answer");
 let experienced:u32 = answer.trim().parse().expect("wrong age input");

@@ -10,7 +10,7 @@ io::stdin().read_line(&mut input1).expect("destiny string");
 
 println!("Enter your age fast");
 io::stdin().read_line(&mut input2).expect("destiny2 string");
-let age:i16 = input2.trim().parse().expect("destiny number");    
+let age:i32 = input2.trim().parse().expect("destiny number");    
    if age>18{
     println!("WELCOME!,{}",input1,);
 }
