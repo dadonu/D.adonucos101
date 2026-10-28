@@ -1,4 +1,4 @@
-struct AlabaElectronics {
+struct Laptops{
     brand:String,
     price:u64,
 /*Mr. Chudi note in the table you said price each so am assuming 
@@ -7,22 +7,22 @@ struct AlabaElectronics {
 
 fn main() {
   
-  let brand1 = AlabaElectronics{
+  let brand1 = Laptops{
     brand:String::from("HP"),
     price:650_000
   };
 
-  let brand2 = AlabaElectronics{
+  let brand2 = Laptops{
     brand:String::from("IBM"),
     price:755_000
   };
 
-  let brand3 = AlabaElectronics{
+  let brand3 = Laptops{
     brand:String::from("Toshiba"),
     price:550_000
   };
 
-  let brand4 = AlabaElectronics{
+  let brand4 = Laptops{
     brand:String::from("Dell"),
     price:850_000
   };
@@ -32,7 +32,7 @@ fn main() {
   println!("The grand total of {}, {}, {}, {} when each is multiplied by 3 and added together is = N{total}"
     , brand1.brand,brand2.brand,brand3.brand,brand4.brand);
   }
-impl AlabaElectronics{
+impl Laptops{
 fn cost(&self)->u64 {
     self.price * 3
 }
