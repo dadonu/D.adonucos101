@@ -35,5 +35,7 @@ fn main() {
 impl Laptops{
 fn cost(&self)->u64 {
     self.price * 3
+
+
 }
 }
